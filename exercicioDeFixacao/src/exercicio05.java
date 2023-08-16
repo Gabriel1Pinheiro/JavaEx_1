@@ -8,7 +8,6 @@ public class exercicio05 {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        ConversorDeMoedas con = new ConversorDeMoedas();
 
         System.out.println("qual é o preço do dólar");
         double preco = sc.nextDouble();

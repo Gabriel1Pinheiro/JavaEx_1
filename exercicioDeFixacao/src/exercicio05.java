@@ -17,7 +17,7 @@ public class exercicio05 {
         double quantia = sc.nextDouble();
 
         double resultado = ConversorDeMoedas.dolarPraReal(preco, quantia);
-        System.out.printf("Valor a ser pago em reais = %.2f%n", resultado);
+        System.out.printf("Valor a ser pago em reais:  R$%.2f%n", resultado);
 
 
         sc.close();
